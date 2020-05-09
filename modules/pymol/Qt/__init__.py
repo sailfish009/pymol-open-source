@@ -40,7 +40,7 @@ if not PYQT_NAME:
 if not PYQT_NAME:
     try:
         try:
-            import PyQt4.sip as sip
+            import PyQt5.sip as sip
         except ImportError:
             import sip
         sip.setapi("QString", 2)
