@@ -27,6 +27,13 @@ REQUIREMENTS
     - openvr 1.0.x (optional, enable with --openvr)
     - libnetcdf (optional, disable with --no-vmd-plugins)
 
+https://pymolwiki.org/index.php/Linux_Install
+# Debian/Ubuntu/Mint
+
+apt-get install git build-essential python3-dev libglew-dev \
+  libpng-dev libfreetype6-dev libxml2-dev \
+  libmsgpack-dev python3-pyqt5.qtopengl libglm-dev libnetcdf-dev
+
 SETUP OPTIONS
 
     python setup.py --help
