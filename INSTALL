@@ -28,11 +28,15 @@ REQUIREMENTS
     - libnetcdf (optional, disable with --no-vmd-plugins)
 
 https://pymolwiki.org/index.php/Linux_Install
-# Debian/Ubuntu/Mint
+# Ubuntu 18.04
 
 apt-get install git build-essential python3-dev libglew-dev \
   libpng-dev libfreetype6-dev libxml2-dev \
   libmsgpack-dev python3-pyqt5.qtopengl libglm-dev libnetcdf-dev
+  
+pip install pyqt5-sip
+
+pip install pyqt5
 
 SETUP OPTIONS
 
